@@ -1,9 +1,5 @@
-name: base
-channels:
-  - defaults
+name: app
 dependencies:
   - pip:
     - bs4
-    - streamlit
     - tk
-
