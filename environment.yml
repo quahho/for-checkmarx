@@ -2,4 +2,5 @@ name: app
 dependencies:
   - pip:
     - bs4
+    - pyautogui
     - tk
