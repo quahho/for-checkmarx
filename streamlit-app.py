@@ -2,7 +2,6 @@
 import streamlit as st
 import enrich
 import extract
-import pyautogui
 
 # List all pages
 PAGES = {
@@ -19,13 +18,6 @@ selection = st.sidebar.selectbox("Where we're heading captain", list(PAGES.keys(
 
 # First in the list is displayed by default
 page = PAGES[selection]
-
-# Set refresh label
-st.sidebar.title('Refresh Selection')
-
-# Create reset button
-if st.sidebar.button('Reset / Restart'):
-    pyautogui.hotkey('f5')
 
 # Set expandable guide label
 st.sidebar.title('Folder Guide')
