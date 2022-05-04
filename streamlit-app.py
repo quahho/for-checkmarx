@@ -30,9 +30,9 @@ expander.write("""
     Inside each subfolder are the related CSV or HTML for that campaign.
 """)
 
-expander.image("images\subfolder.png", caption='Subfolders in chosen folder', use_column_width='auto')
-expander.image("images\csv.png", caption='CSV in subfolder', use_column_width='auto')
-expander.image("images\html.png", caption='HTML in subfolder', use_column_width='auto')
+expander.image("images/subfolder.png", caption='Subfolders in chosen folder', use_column_width='auto')
+expander.image("images/csv.png", caption='CSV in subfolder', use_column_width='auto')
+expander.image("images/html.png", caption='HTML in subfolder', use_column_width='auto')
 
 # Set output guide label
 st.sidebar.title('Output location')
@@ -44,13 +44,13 @@ expander.write("""
     For CSV, the output is within each campaign subfolder.
 """)
 
-expander.image("images\output_csv.png", caption='Output for CSV', use_column_width='auto')
+expander.image("images/output_csv.png", caption='Output for CSV', use_column_width='auto')
 
 expander.write("""
     For HTML, the output is located in the chosen folder itself.
 """)
 
-expander.image("images\output_html.png", caption='Output for HTML', use_column_width='auto')
+expander.image("images/output_html.png", caption='Output for HTML', use_column_width='auto')
 
 # Run the selected page
 page.app()
